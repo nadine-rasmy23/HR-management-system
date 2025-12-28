@@ -43,7 +43,7 @@ The system is designed according to the multi-layer secured architecture specifi
    Only validated requests can access business logic and the database.
 
 3. **Database Management System**  
-   Uses [PostgreSQL / MySQL / etc. – اكتب اللي استخدمتوه].  
+   Uses MySql.  
    Contains application data (at least 3 related tables with full CRUD operations).  
    Accessed exclusively by the backend after successful JWT validation. Never directly accessed by the frontend.
 
